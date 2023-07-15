@@ -14,10 +14,11 @@ const (
 // ilk değer 0'dan başlar ve her sabit için 1 artar
 const (
 	sabit_4 = iota // 0
-	sabit_5 
-	sabit_6 
+	sabit_5
+	sabit_6
 )
 
 func main() {
-	fmt.Println(sabit_1, sabit_2, sabit_3, sabit_4, sabit_5, sabit_6)
+	name := "bugrahan"
+	fmt.Println(sabit_1, sabit_2, sabit_3, sabit_4, sabit_5, sabit_6, name)
 }
