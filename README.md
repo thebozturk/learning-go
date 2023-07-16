@@ -1,0 +1,1 @@
+Bu repository'de Go öğrenme sürecimde aldığım notları ve örnekleri paylaşıyorum.
