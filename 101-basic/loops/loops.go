@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 // go dilinde fonksiyonlar birden fazla değer döndürebilir ve fonksiyonlar bir değişken gibi tanımlanabilir
@@ -31,7 +32,12 @@ func main() {
 	// go dilinde while döngüsü yoktur. for döngüsünü while gibi kullanabiliriz
 	i := 0
 	for i < 10 {
-		fmt.Println("i->",i)
+		fmt.Println("i->", i)
 		i++
+	}
+
+	slc3 := []int{1, 2, 3, 4, 5}
+	for i, v := range slc3 {
+		fmt.Println("slc", i, v)
 	}
 }

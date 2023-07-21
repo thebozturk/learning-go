@@ -28,4 +28,8 @@ func main() {
 	fmt.Println(slc_3)
 
 	// her append işleminde kapasiteyi aşarsak kapasiteyi 2 katına çıkarır
+
+	var newArr = make([]int, 0, 5)
+	newArr2 := append(newArr, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+	fmt.Println("newArr->", newArr, "newArr2->", newArr2)
 }

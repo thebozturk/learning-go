@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19f98e8b-dba2-464d-9470-fefc137e0a21" name="Changes" comment="docs: added new concurrency examples">
+      <change afterPath="$PROJECT_DIR$/examples/maps.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/pointer-2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/pointer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-package/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-package/limit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-package/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-package/proxy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scope/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/101-basic/arrays/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/arrays/array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/101-basic/loops/loops.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/loops/loops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/101-basic/maps/maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/maps/maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/101-basic/pointers/pointers.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/pointers/pointers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/101-basic/slices/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/slices/slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-102/goroutines/goroutine-waitgroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-102/goroutines/goroutine-waitgroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error-handling/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/error-handling/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Sc1zrvdDjXENtw5hVrtzyk0rmq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bugrahanozturk/Desktop/Projects/learning-go/concurrency-102/goroutines&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/concurrency-102/goroutines" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build pointer-2.go">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learning-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learning-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/maps.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pointer-2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learning-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/examples/pointer-2.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learning-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/pointer.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learning-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/struct.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build pointer-2.go" />
+        <item itemvalue="Go Build.go build pointer.go" />
+        <item itemvalue="Go Build.go build struct.go" />
+        <item itemvalue="Go Build.go build maps.go" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: added concurrency examples" />
+    <MESSAGE value="docs: added main readme file" />
+    <MESSAGE value="docs: added env variables and error handling examples" />
+    <MESSAGE value="docs: added bytes and time packages examples" />
+    <MESSAGE value="docs: added new concurrency examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: added new concurrency examples" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

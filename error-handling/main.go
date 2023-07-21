@@ -15,6 +15,11 @@ func main() {
 	fmt.Println(err)
 
 	checkError(err)
+	result, err := evenNum(0)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(result)
 }
 
 func checkError(err error) {
@@ -22,4 +27,12 @@ func checkError(err error) {
 		errors.New("Bu bir hata mesajıdır.")
 		os.Exit(1)
 	}
+}
+
+func evenNum(num int) (int, error) {
+	fmt.Println("num->", num)
+	if num%2 != 0 {
+		return num, errors.New("Bu bir hata mesajıdır.")
+	}
+	return num, nil
 }

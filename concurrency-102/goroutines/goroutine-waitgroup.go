@@ -14,6 +14,7 @@ func main() {
 	go func() {
 		println("Hello from goroutine")
 		wg.Done()
+
 	}()
 
 	wg.Wait() // burada goroutine'lerin bitmesini bekliyoruz

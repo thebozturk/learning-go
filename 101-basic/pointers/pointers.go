@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 // pointerlar ile birlikte go dilinde call by reference yapısı kullanılabilir

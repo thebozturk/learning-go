@@ -21,4 +21,9 @@ func main() {
 	mp_3["key_3"] = 3
 
 	fmt.Println(mp_3)
+
+	map4 := make(map[string]string)
+	map4["key_1"] = "value_1"
+	map4["key_2"] = "value_2"
+	fmt.Println("map4->", map4)
 }

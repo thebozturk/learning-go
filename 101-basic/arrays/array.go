@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // eğer dizinin boyutunu belirtmek istersek
-var arr_1 [5]int // 5 elemanlı int tipinde bir dizi
+var arr_1 [5]int                  // 5 elemanlı int tipinde bir dizi
 var arr_2 = [5]int{1, 2, 3, 4, 5} // 5 elemanlı int tipinde bir dizi ve ilk değerlerini belirttik
 
 func main() {
