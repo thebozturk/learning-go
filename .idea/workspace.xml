@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f98e8b-dba2-464d-9470-fefc137e0a21" name="Changes" comment="docs: added new concurrency examples">
-      <change afterPath="$PROJECT_DIR$/examples/channels.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/goroutines.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/polymorphism.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
