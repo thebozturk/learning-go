@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f98e8b-dba2-464d-9470-fefc137e0a21" name="Changes" comment="docs: added new concurrency examples">
-      <change afterPath="$PROJECT_DIR$/examples/maps.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pointer-2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pointer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-package/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-package/limit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-package/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-package/proxy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scope/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101-basic/arrays/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/arrays/array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101-basic/loops/loops.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/loops/loops.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101-basic/maps/maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/maps/maps.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101-basic/pointers/pointers.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/pointers/pointers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101-basic/slices/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/101-basic/slices/slices.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency-102/goroutines/goroutine-waitgroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-102/goroutines/goroutine-waitgroup.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error-handling/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/error-handling/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/channels.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/goroutines.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/polymorphism.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,21 +68,29 @@
       <recent name="$PROJECT_DIR$/examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build pointer-2.go">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build channels.go">
+    <configuration name="go build channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learning-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/examples/channels.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build goroutines.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learning-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/maps.go" />
+      <filePath value="$PROJECT_DIR$/examples/goroutines.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learning-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/examples/interface.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build pointer-2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -104,29 +101,21 @@
       <filePath value="$PROJECT_DIR$/examples/pointer-2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build polymorphism.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learning-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/pointer.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learning-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/struct.go" />
+      <filePath value="$PROJECT_DIR$/examples/polymorphism.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build channels.go" />
+        <item itemvalue="Go Build.go build goroutines.go" />
+        <item itemvalue="Go Build.go build polymorphism.go" />
+        <item itemvalue="Go Build.go build interface.go" />
         <item itemvalue="Go Build.go build pointer-2.go" />
-        <item itemvalue="Go Build.go build pointer.go" />
-        <item itemvalue="Go Build.go build struct.go" />
-        <item itemvalue="Go Build.go build maps.go" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
